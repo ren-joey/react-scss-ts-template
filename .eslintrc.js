@@ -27,7 +27,8 @@ module.exports = {
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
         /* tslint default */
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        'no-alert': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        // 'no-alert': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'no-alert': 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
         /* common */
@@ -36,20 +37,32 @@ module.exports = {
         'comma-dangle': ['error', 'never'],
         'arrow-body-style': ['error', 'as-needed'],
         'global-require': 'off',
-        'max-len': ['warn', { code: 100, tabWidth: 4, ignoreUrls: true }],
-        'object-curly-newline': ['error', { multiline: true }],
+        'max-len': ['warn', {
+            code: 100,
+            tabWidth: 4,
+            ignoreUrls: true,
+            ignoreComments: true,
+            ignoreStrings: true
+        }],
+        'object-curly-newline': ['error', { consistent: true }],
         'no-underscore-dangle': 'off',
         camelcase: 'off',
         'no-continue': 'off',
         'linebreak-style': 'off',
         'object-shorthand': 'off',
         'no-nested-ternary': 'off',
+        'semi': [2, 'always'],
 
         /* import */
         'import/newline-after-import': 'off',
         'import/prefer-default-export': 'off',
 
+        /* typescript */
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
+
         /* react */
+        'react-hooks/exhaustive-deps': 'off',
         'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
         'react/react-in-jsx-scope': 'off',
         'react/jsx-filename-extension': [2, { 'extensions': ['.js', '.jsx', '.ts', '.tsx'] }],

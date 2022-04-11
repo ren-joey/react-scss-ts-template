@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ["stylelint-config-standard"],
+    extends: ["stylelint-config-standard-scss"],
     plugins: ["stylelint-scss", "stylelint-order"],
     rules: {
         "max-nesting-depth": null,
@@ -16,6 +16,8 @@ module.exports = {
         "declaration-block-trailing-semicolon": null,
         "selector-no-qualifying-type": null,
         "keyframes-name-pattern": null,
+        "color-function-notation": 'legacy',
+        "alpha-value-notation": null,
 
         "scss/at-import-partial-extension-blacklist": null,
 
@@ -62,6 +64,7 @@ module.exports = {
             "line-height",
             "color",
             "background",
+            "background-image",
             "background-position",
             "background-repeat",
             "background-size",
@@ -98,6 +101,8 @@ module.exports = {
             "text-shadow",
             "resize",
             "transition",
+            "transform",
+            "animation",
             "cursor",
         ],
     }
