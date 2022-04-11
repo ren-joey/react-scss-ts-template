@@ -1,8 +1,5 @@
 {
     "words": [
-        "mkttest",
-        "joeytest",
-        "bbin",
         "pixi",
         "camelcase",
         "fortawesome",
@@ -71,7 +68,6 @@
         "userinfo",
         "fisharea",
         "iframe",
-        "bbgame",
         "navbars",
         "negativify",
         "Giraudel",
@@ -83,16 +79,24 @@
         "bezier",
         "fifa",
         "staronic",
-        "esball",
         "takeprize",
         "energys",
         "unregister",
         "webp",
-        "Newbb",
         "rxlang",
         "chunkhash",
         "ttfb",
         "noopener",
-        "noreferrer"
+        "noreferrer",
+        "roadmap",
+        "mainchain",
+        "rnft",
+        "toppan",
+        "Bunkyu",
+        "Midashi",
+        "DAFONT",
+        "webfonts",
+        "subevent",
+        "tailwindcss"
     ]
 }
