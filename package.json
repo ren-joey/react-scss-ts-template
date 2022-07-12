@@ -5,7 +5,10 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
+        "build:dev": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
         "test": "react-scripts test",
+        "lint": "npm run stylelint && tsc --noEmit & NODE_ENV=production eslint ./src",
+        "stylelint": "stylelint ./src/**/*.scss",
         "eject": "react-scripts eject"
     },
     "dependencies": {
