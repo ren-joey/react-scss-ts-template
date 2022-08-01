@@ -27,15 +27,13 @@ module.exports = {
         // e.g. "@typescript-eslint/explicit-function-return-type": "off",
         /* tslint default */
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        // 'no-alert': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        'no-alert': 'off',
+        'no-alert': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
         /* common */
         indent: [2, 4, { SwitchCase: 1 }],
         'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
         'comma-dangle': ['error', 'never'],
-        'arrow-body-style': ['error', 'as-needed'],
         'global-require': 'off',
         'max-len': ['warn', {
             code: 100,
