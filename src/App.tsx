@@ -7,7 +7,8 @@ const App = () => (
             <img
                 src={logo}
                 className={style['App-logo']}
-                alt="logo" />
+                alt="logo"
+            />
             <p>
                 Edit <code>src/App.tsx</code> and save to reload.
             </p>

@@ -68,11 +68,11 @@ module.exports = {
         'react/jsx-filename-extension': [2, { 'extensions': ['.js', '.jsx', '.ts', '.tsx'] }],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
-        'react/jsx-max-props-per-line': [2, { maximum: 1 }]
+        'react/jsx-max-props-per-line': [2, { maximum: 1 }],
+        'react/jsx-closing-bracket-location': 2,
+        'react/jsx-closing-tag-location': 2,
+        'react/jsx-first-prop-new-line': [2, 'multiline']
     },
-    ignorePatterns: [
-        '**/setupProxy.js'
-    ],
     settings: {
         react: {
             // Tells eslint-plugin-react to automatically detect the version of React to use
