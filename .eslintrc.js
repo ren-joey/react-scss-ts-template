@@ -34,7 +34,6 @@ module.exports = {
         indent: [2, 4, { SwitchCase: 1 }],
         'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
         'comma-dangle': ['error', 'never'],
-        'arrow-body-style': ['error', 'as-needed'],
         'global-require': 'off',
         'max-len': ['warn', {
             code: 100,
@@ -69,7 +68,10 @@ module.exports = {
         'react/jsx-filename-extension': [2, { 'extensions': ['.js', '.jsx', '.ts', '.tsx'] }],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
-        'react/jsx-max-props-per-line': [2, { maximum: 1 }]
+        'react/jsx-max-props-per-line': [2, { maximum: 1 }],
+        'react/jsx-closing-bracket-location': 2,
+        'react/jsx-closing-tag-location': 2,
+        'react/jsx-first-prop-new-line': [2, 'multiline']
     },
     ignorePatterns: [
         '**/setupProxy.js'
