@@ -1,0 +1,117 @@
+.login {
+    width: 100%;
+    height: 100%;
+}
+
+.login-space1 {
+    padding-top: 23%;
+}
+
+.login-space2 {
+    padding-top: 10px;
+}
+
+.login-space3 {
+    padding-top: 15px;
+}
+
+.login-space4 {
+    padding-top: 10px;
+}
+
+.login-space5 {
+    padding-top: 10px;
+}
+
+.login-space6 {
+    padding-top: 15px;
+}
+
+.login-space7 {
+    padding-top: 10px;
+}
+
+.login-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #8cea00;
+}
+
+.login-image {
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+
+.login-email {
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    width: 60%;
+    height: 30px;
+    font-size: 14px;
+    color: #d0d0d0;
+    background: #272727;
+    border: 1px solid #6c6c6c;
+    border-radius: 8px;
+}
+
+.login-password {
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    width: 60%;
+    height: 30px;
+    font-size: 14px;
+    color: #d0d0d0;
+    background: #272727;
+    border: 1px solid #6c6c6c;
+    border-radius: 8px;
+}
+
+::placeholder {
+    font-size: 10px;
+    color: #9d9d9d;
+}
+
+.login-login {
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: 36px;
+    font-size: 12px;
+    background: #8cea00;
+}
+
+.login-email-error {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    font-size: 12px;
+    color: red;
+}
+
+.login-password-error {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    font-size: 12px;
+    color: red;
+}
+
+.login-register-text {
+    font-size: 11px;
+    text-align: center;
+    color: #d0d0d0;
+}
+
+.login-register-link {
+    color: #82d900;
+}
+
+.login-court-provider {
+    font-size: 11px;
+    text-align: center;
+    color: #82d900;
+}

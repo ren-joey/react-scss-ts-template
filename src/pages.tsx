@@ -1,0 +1,17 @@
+export const COURT_PROVIDER_ROOT = 0;
+export const COURT_PROVIDER_CONTAINER = 1;
+export const COURT_PROVIDER_LOGIN = 2;
+export const COURT_PROVIDER_HOME = 3;
+export const COURT_PROVIDER_CREATE_COURT = 4;
+export const COURT_PROVIDER_EDIT_COURT = 5;
+export const COURT_PROVIDER_USAGE_HISTORY = 6;
+
+export const SPORTSMAN_CONTAINER = 10;
+export const SPORTSMAN_REGISTER = 11;
+export const SPORTSMAN_LOGIN = 12;
+export const SPORTSMAN_HOME = 13;
+export const SPORTSMAN_RESERVE_NOW = 14;
+export const SPORTSMAN_MY_RESERVATIONS = 15;
+export const SPORTSMAN_COURT_INFORMATION = 16;
+export const SPORTSMAN_SIGN_IN = 17;
+export const SPORTSMAN_MAP = 18;
