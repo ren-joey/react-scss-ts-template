@@ -57,33 +57,31 @@ const Login = (props: LoginProps) => {
                 alt="一起運動"
             />
             <div className="login-space3"/>
-            <form>
-                <input
-                    className="login-email"
-                    type="text"
-                    id="email"
-                    placeholder="電子信箱"
-                />
-                {
-                    isEmailValid ? <div className="login-space4"/> : <div className="login-email-error">信箱不存在</div>
-                }
-                <input
-                    className="login-password"
-                    type="password"
-                    id="password"
-                    placeholder="密碼"
-                />
-                {
-                    isPasswordValid ? <div className="login-space5"/> : <div className="login-password-error">密碼錯誤</div>
-                }
-                <button
-                    className="login-login"
-                    type="button"
-                    onClick={handleLoginClicked}
-                >
-                    登入
-                </button>
-            </form>
+            <input
+                className="login-email"
+                type="text"
+                id="email"
+                placeholder="電子信箱"
+            />
+            {
+                isEmailValid ? <div className="login-space4"/> : <div className="login-email-error">信箱不存在</div>
+            }
+            <input
+                className="login-password"
+                type="password"
+                id="password"
+                placeholder="密碼"
+            />
+            {
+                isPasswordValid ? <div className="login-space5"/> : <div className="login-password-error">密碼錯誤</div>
+            }
+            <button
+                className="login-login"
+                type="button"
+                onClick={handleLoginClicked}
+            >
+                登入
+            </button>
             <div className="login-space6"/>
             <div className="login-register-text">
                 <span>

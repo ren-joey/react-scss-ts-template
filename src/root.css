@@ -2,7 +2,7 @@ html,
 body,
 #app {
     margin: auto;
-    width: 264px;
+    width: 100%;
     height: 100%;
     font-family:
         -apple-system,
@@ -16,6 +16,14 @@ body,
         "Droid Sans",
         "Helvetica Neue",
         sans-serif;
+}
+
+@media (min-width: 768px) {
+    html,
+    body,
+    #app {
+        width: 264px;
+    }
 }
 
 .root {
